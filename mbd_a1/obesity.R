@@ -84,7 +84,6 @@ ggplot(roc_data, aes(x = 1 - specificity, y = sensitivity, color = model)) +
     legend.position = "right"
   )
 
-roc_data
 
 
 od_fit1 %>% extract_fit_parsnip() %>% vip::vip() | od_fit2 %>% extract_fit_parsnip() %>% vip::vip()
