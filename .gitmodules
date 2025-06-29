@@ -1,3 +1,3 @@
 [submodule "mbd_a3"]
-	path = mbd_a3
+	path = assignments/mbd_a3
 	url = git@github.com:secary/mbd_a3.git
